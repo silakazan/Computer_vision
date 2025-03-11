@@ -1,0 +1,11 @@
+,ABC Teknoloji A.Ş.,ABC Technology Inc.,XYZ Yazılım Ltd.,XYZ Software Limited,KLM Otomotiv Sanayi,KLM Automotive Industry,Delta Bilgisayar Hizmetleri,Delta Computer Services,Beta Danışmanlık ve Ticaret,Beta Consulting & Trade
+ABC Teknoloji A.Ş.,1.0,0.26542299163590405,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ABC Technology Inc.,0.26542299163590405,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+XYZ Yazılım Ltd.,0.0,0.0,1.0,0.26542299163590405,0.0,0.0,0.0,0.0,0.0,0.0
+XYZ Software Limited,0.0,0.0,0.26542299163590405,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+KLM Otomotiv Sanayi,0.0,0.0,0.0,0.0,1.0,0.26542299163590405,0.0,0.0,0.0,0.0
+KLM Automotive Industry,0.0,0.0,0.0,0.0,0.26542299163590405,1.0,0.0,0.0,0.0,0.0
+Delta Bilgisayar Hizmetleri,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.26542299163590405,0.0,0.0
+Delta Computer Services,0.0,0.0,0.0,0.0,0.0,0.0,0.26542299163590405,1.0,0.0,0.0
+Beta Danışmanlık ve Ticaret,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0000000000000002,0.2269909062176697
+Beta Consulting & Trade,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2269909062176697,1.0
