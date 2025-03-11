@@ -28,8 +28,7 @@ cd deskewer
 
 # Install dependencies
 pip install -r requirements.txt
-
-
+```
 
 ## 📌 Usage
 
@@ -48,4 +47,5 @@ print(f"Detected skew angle: {angle:.2f} degrees")
 deskewer.save_corrected_image(output_path)
 deskewer.display_images()
 
+```
 
