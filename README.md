@@ -45,7 +45,28 @@ angle = deskewer.calculate_skew_angle()
 print(f"Detected skew angle: {angle:.2f} degrees")
 
 deskewer.save_corrected_image(output_path)
+
+
 deskewer.display_images()
 
 ```
+## 🛠 How It Works?
+
+1️⃣ Load Image → Converts the image to grayscale.
+2️⃣ Detect Skew Angle → Uses deskew algorithm to calculate the skew angle.
+3️⃣ Correct Skew → Applies an affine transformation to deskew the image.
+4️⃣ Save & Display → Saves and displays the corrected image.
+
+
+## 🔗 References
+Deskew Library Documentation
+OpenCV Official Docs
+Hough Transform Explanation
+📜 License
+This project is licensed under the MIT License.
+
+## 🤝 Contributions
+Want to improve Deskewer? Feel free to fork the repository and submit a pull request! 🚀
+
+
 
