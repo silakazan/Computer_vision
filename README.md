@@ -2,9 +2,12 @@ Deskewer: Automatic Image Deskewing with Python
 
 🖼️ Correct Skewed Images Using OpenCV & Deskew Library
 
-(Replace with an actual example image)
 
-![Deskewer Example](https://github.com/silakazan/Computer_vision/blob/main/deskew.jpg)
+
+<p align="center">
+  <img src="https://github.com/silakazan/Computer_vision/blob/main/deskew.jpg" alt="Deskewer Example" width="500">
+</p>
+
 
 
 🔹 Overview
