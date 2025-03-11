@@ -5,7 +5,7 @@ Deskewer: Automatic Image Deskewing with Python
 
 
 <p align="center">
-  <img src="https://github.com/silakazan/Computer_vision/blob/main/deskew.jpg" alt="Deskewer Example" width="500">
+  <img src="https://github.com/silakazan/Computer_vision/blob/main/deskew.jpg" alt="Deskewer Example" width="300">
 </p>
 
 
