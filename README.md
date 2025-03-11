@@ -30,3 +30,22 @@ cd deskewer
 pip install -r requirements.txt
 
 
+
+## 📌 Usage
+
+### Basic Usage
+
+```python
+from deskewer import Deskewer
+
+input_path = "skewed_text.jpg"
+output_path = "deskewed_output.jpg"
+
+deskewer = Deskewer(input_path)
+angle = deskewer.calculate_skew_angle()
+print(f"Detected skew angle: {angle:.2f} degrees")
+
+deskewer.save_corrected_image(output_path)
+deskewer.display_images()
+
+
