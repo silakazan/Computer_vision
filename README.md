@@ -4,7 +4,8 @@ Deskewer: Automatic Image Deskewing with Python
 
 (Replace with an actual example image)
 
-https://github.com/silakazan/Computer_vision/blob/main/deskew.jpg
+![Deskewer Example](https://github.com/silakazan/Computer_vision/blob/main/deskew.jpg)
+
 
 🔹 Overview
 Deskewer is a Python-based tool that automatically detects and corrects skewed images, especially useful for OCR preprocessing. It leverages the deskew library along with OpenCV to analyze an image’s tilt and apply an affine transformation for correction.
