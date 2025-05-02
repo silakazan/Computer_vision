@@ -1,0 +1,160 @@
+﻿11/18/2024 21:27:55 GMT+03:00 : Information : Local timezone is (UTC+03:00) Türkiye Saati
+11/18/2024 21:27:55 GMT+03:00 : Information : VsHubClient-hubController write: Content-Length: 108
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":5026}]}
+11/18/2024 21:27:55 GMT+03:00 : Information : VsHubClient-hubController read: Content-Length: 445
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://503337EFE0","ControllerConfig":{"Executable":"/Users/silakazan/.vscode/extensions/ms-dotnettools.csdevkit-1.7.27-darwin-arm64/components/vs-green-server/platforms/darwin-arm64/node_modules/@microsoft/servicehub-controller-net60.darwin-arm64/Microsoft.ServiceHub.Controller","Args":["97c6ca435f"],"PipeName":"97c6ca435f"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+11/18/2024 21:27:55 GMT+03:00 : Information : Connected to Hub Controller's client watch 'net.pipe://503337EFE0
+11/18/2024 21:27:55 GMT+03:00 : Information : VsHubClient-hubController write: Content-Length: 1430
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.TestWindow.VSCode.Service","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceModuleInfo_Microsoft.VisualStudio.TestWindow.VSCode.Service":"{\"name\":null,\"host\":\"dotnet\",\"hostId\":\"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE\",\"serviceBaseDirectory\":\"/Users/silakazan/.vscode/extensions/ms-dotnettools.csdevkit-1.7.27-darwin-arm64/components/VSUnitTesting/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-arm64\",\"entryPoint\":{\"assemblyPath\":\"/Users/silakazan/.vscode/extensions/ms-dotnettools.csdevkit-1.7.27-darwin-arm64/components/VSUnitTesting/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-arm64/Microsoft.VisualStudio.TestWindow.VSCode.Service.dll\",\"fullClassName\":\"Microsoft.VisualStudio.TestWindow.VSCode.Service.TestWindowVSCodeServiceFactory\",\"scriptPath\":null,\"constructorFunction\":null,\"configPath\":null,\"appBasePath\":null,\"assemblySearchPathsConfig\":null},\"hostGroupAllowed\":null,\"hostGroupId\":null,\"serviceOverride\":null,\"singleDomainLoaderOptimization\":null,\"versionRange\":null,\"friendServices\":null}","__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/silakazan/.ServiceHub/97c6ca435f/c62f22df00"},"ClientCredentials":{},"ClientCulture":"tr","ClientUICulture":"tr"}]}
+11/18/2024 21:27:55 GMT+03:00 : Information : VsHubClient-hubController write: Content-Length: 1408
+
+{"jsonrpc":"2.0","id":4,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.LaunchConfigurationService"},{"ActivationArguments":{"__servicehub__ServiceModuleInfo_Microsoft.VisualStudio.LaunchConfigurationService":"{\"name\":null,\"host\":\"dotnet.projectSystem\",\"hostId\":\"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE\",\"serviceBaseDirectory\":\"/Users/silakazan/.vscode/extensions/ms-dotnettools.csdevkit-1.7.27-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64\",\"entryPoint\":{\"assemblyPath\":\"/Users/silakazan/.vscode/extensions/ms-dotnettools.csdevkit-1.7.27-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll\",\"fullClassName\":\"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory\",\"scriptPath\":null,\"constructorFunction\":null,\"configPath\":null,\"appBasePath\":null,\"assemblySearchPathsConfig\":null},\"hostGroupAllowed\":null,\"hostGroupId\":null,\"serviceOverride\":null,\"singleDomainLoaderOptimization\":null,\"versionRange\":null,\"friendServices\":null}","__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/silakazan/.ServiceHub/97c6ca435f/d891a33d57"},"ClientCredentials":{},"ClientCulture":"tr","ClientUICulture":"tr"}]}
+11/18/2024 21:27:55 GMT+03:00 : Information : VsHubClient-hubController write: Content-Length: 1467
+
+{"jsonrpc":"2.0","id":5,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService","Version":"0.2"},{"ActivationArguments":{"__servicehub__ServiceModuleInfo_Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService":"{\"name\":null,\"host\":\"dotnet.projectSystem\",\"hostId\":\"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE\",\"serviceBaseDirectory\":\"/Users/silakazan/.vscode/extensions/ms-dotnettools.csdevkit-1.7.27-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64\",\"entryPoint\":{\"assemblyPath\":\"/Users/silakazan/.vscode/extensions/ms-dotnettools.csdevkit-1.7.27-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll\",\"fullClassName\":\"Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory\",\"scriptPath\":null,\"constructorFunction\":null,\"configPath\":null,\"appBasePath\":null,\"assemblySearchPathsConfig\":null},\"hostGroupAllowed\":null,\"hostGroupId\":null,\"serviceOverride\":null,\"singleDomainLoaderOptimization\":null,\"versionRange\":null,\"friendServices\":null}","__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/silakazan/.ServiceHub/97c6ca435f/d1bf900068"},"ClientCredentials":{},"ClientCulture":"tr","ClientUICulture":"tr"}]}
+11/18/2024 21:27:55 GMT+03:00 : Information : VsHubClient-hubController write: Content-Length: 1467
+
+{"jsonrpc":"2.0","id":6,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService","Version":"0.2"},{"ActivationArguments":{"__servicehub__ServiceModuleInfo_Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService":"{\"name\":null,\"host\":\"dotnet.projectSystem\",\"hostId\":\"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE\",\"serviceBaseDirectory\":\"/Users/silakazan/.vscode/extensions/ms-dotnettools.csdevkit-1.7.27-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64\",\"entryPoint\":{\"assemblyPath\":\"/Users/silakazan/.vscode/extensions/ms-dotnettools.csdevkit-1.7.27-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll\",\"fullClassName\":\"Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory\",\"scriptPath\":null,\"constructorFunction\":null,\"configPath\":null,\"appBasePath\":null,\"assemblySearchPathsConfig\":null},\"hostGroupAllowed\":null,\"hostGroupId\":null,\"serviceOverride\":null,\"singleDomainLoaderOptimization\":null,\"versionRange\":null,\"friendServices\":null}","__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/silakazan/.ServiceHub/97c6ca435f/d35b19e15a"},"ClientCredentials":{},"ClientCulture":"tr","ClientUICulture":"tr"}]}
+11/18/2024 21:27:55 GMT+03:00 : Information : VsHubClient-hubController read: Content-Length: 166
+
+{"jsonrpc":"2.0","id":4,"result":{"RequestId":"6dc83c8f-8676-4e20-96ba-8494cf467c48","PipeName":"/Users/silakazan/.ServiceHub/97c6ca435f/c4ea4b57a2","IsEmpty":false}}Content-Length: 166
+
+{"jsonrpc":"2.0","id":5,"result":{"RequestId":"e80b5f10-5982-4e51-a97f-deb8109ffc5e","PipeName":"/Users/silakazan/.ServiceHub/97c6ca435f/fc55d03ca2","IsEmpty":false}}Content-Length: 166
+
+{"jsonrpc":"2.0","id":6,"result":{"RequestId":"1652c324-f8d5-4abc-b966-239534f62b61","PipeName":"/Users/silakazan/.ServiceHub/97c6ca435f/dc43118c0b","IsEmpty":false}}
+11/18/2024 21:27:55 GMT+03:00 : Information : VsHubClient-hubController read: Content-Length: 166
+
+{"jsonrpc":"2.0","id":3,"result":{"RequestId":"fd13e233-f595-4feb-b020-584085581ae0","PipeName":"/Users/silakazan/.ServiceHub/97c6ca435f/0cdd98748a","IsEmpty":false}}
+11/18/2024 21:27:55 GMT+03:00 : Information : Disposing ServiceBroker server '/Users/silakazan/.ServiceHub/97c6ca435f/d1bf900068'.
+11/18/2024 21:27:55 GMT+03:00 : Information : Disposing ServiceBroker server '/Users/silakazan/.ServiceHub/97c6ca435f/d891a33d57'.
+11/18/2024 21:27:55 GMT+03:00 : Information : Disposing ServiceBroker server '/Users/silakazan/.ServiceHub/97c6ca435f/d35b19e15a'.
+11/18/2024 21:27:55 GMT+03:00 : Information : Disposing ServiceBroker server '/Users/silakazan/.ServiceHub/97c6ca435f/c62f22df00'.
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.LaunchConfigurationService-RemoteServiceBrokerServer read: Content-Length: 194
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":3,"runtime":2,"runtimeVersion":"8.0.11"}}]}
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService-RemoteServiceBrokerServer read: Content-Length: 194
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":3,"runtime":2,"runtimeVersion":"8.0.11"}}]}
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService-RemoteServiceBrokerServer read: Content-Length: 194
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":3,"runtime":2,"runtimeVersion":"8.0.11"}}]}
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.TestWindow.VSCode.Service-RemoteServiceBrokerServer read: Content-Length: 194
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":3,"runtime":2,"runtimeVersion":"8.0.11"}}]}
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.LaunchConfigurationService-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.TestWindow.VSCode.Service-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService-RemoteServiceBrokerServer read: Content-Length: 177
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"tr","clientUICulture":"tr"}]}
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.LaunchConfigurationService-RemoteServiceBrokerServer read: Content-Length: 177
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"tr","clientUICulture":"tr"}]}
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService-RemoteServiceBrokerServer read: Content-Length: 177
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"tr","clientUICulture":"tr"}]}
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.LaunchConfigurationService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"e0d89da9-b475-41bf-b6c4-687e571a3500","pipeName":"/var/folders/3j/192wsqcs0sz1f48rg7nt6qqm0000gn/T/5288b527371d4799b359751f418adbf4"}}
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"6ed85fde-b0da-47ee-b531-0452c6160c9d","pipeName":"/var/folders/3j/192wsqcs0sz1f48rg7nt6qqm0000gn/T/c94cbf887e3d47a8bbe9e308c258ca40"}}
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"a26abea7-ee64-4480-b608-ef04dc936f46","pipeName":"/var/folders/3j/192wsqcs0sz1f48rg7nt6qqm0000gn/T/42907131c8c9428f8b203ac13883db73"}}
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.TestWindow.VSCode.Service-RemoteServiceBrokerServer read: Content-Length: 177
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"tr","clientUICulture":"tr"}]}
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.TestWindow.VSCode.Service-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"5181080a-461d-476e-86e2-f69776b4541b","pipeName":"/var/folders/3j/192wsqcs0sz1f48rg7nt6qqm0000gn/T/c99b3eb346cd4a179b9b2ac694339024"}}
+11/18/2024 21:27:56 GMT+03:00 : Information : VsHubClient-hubController write: Content-Length: 1436
+
+{"jsonrpc":"2.0","id":7,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceModuleInfo_Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService":"{\"name\":null,\"host\":\"dotnet\",\"hostId\":\"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE\",\"serviceBaseDirectory\":\"/Users/silakazan/.vscode/extensions/ms-dotnettools.csdevkit-1.7.27-darwin-arm64/components/VSDebugCore/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-arm64\",\"entryPoint\":{\"assemblyPath\":\"/Users/silakazan/.vscode/extensions/ms-dotnettools.csdevkit-1.7.27-darwin-arm64/components/VSDebugCore/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-arm64/Microsoft.VisualStudio.Debugger.DevKit.dll\",\"fullClassName\":\"Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService+Factory\",\"scriptPath\":null,\"constructorFunction\":null,\"configPath\":null,\"appBasePath\":null,\"assemblySearchPathsConfig\":null},\"hostGroupAllowed\":null,\"hostGroupId\":null,\"serviceOverride\":null,\"singleDomainLoaderOptimization\":null,\"versionRange\":null,\"friendServices\":null}","__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/silakazan/.ServiceHub/97c6ca435f/40e91b5f65"},"ClientCredentials":{},"ClientCulture":"tr-TR","ClientUICulture":"en-US"}]}
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService-RemoteServiceBrokerServer read: Content-Length: 197
+
+{"jsonrpc":"2.0","id":4,"method":"requestServiceChannel","params":[{"name":"Microsoft.VisualStudio.ProjectSystem.CompositionService","version":"0.1"},{"clientCulture":"tr","clientUICulture":"tr"}]}
+11/18/2024 21:27:56 GMT+03:00 : Information : VsHubClient-hubController write: Content-Length: 1428
+
+{"jsonrpc":"2.0","id":8,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.CompositionService","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceModuleInfo_Microsoft.VisualStudio.ProjectSystem.CompositionService":"{\"name\":null,\"host\":\"dotnet.projectSystem\",\"hostId\":\"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE\",\"serviceBaseDirectory\":\"/Users/silakazan/.vscode/extensions/ms-dotnettools.csdevkit-1.7.27-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64\",\"entryPoint\":{\"assemblyPath\":\"/Users/silakazan/.vscode/extensions/ms-dotnettools.csdevkit-1.7.27-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll\",\"fullClassName\":\"Microsoft.VisualStudio.ProjectSystem.Server.CompositionServiceFactory\",\"scriptPath\":null,\"constructorFunction\":null,\"configPath\":null,\"appBasePath\":null,\"assemblySearchPathsConfig\":null},\"hostGroupAllowed\":null,\"hostGroupId\":null,\"serviceOverride\":null,\"singleDomainLoaderOptimization\":null,\"versionRange\":null,\"friendServices\":null}","__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/silakazan/.ServiceHub/97c6ca435f/8e4ba6c485"},"ClientCredentials":{},"ClientCulture":"tr","ClientUICulture":"tr"}]}
+11/18/2024 21:27:56 GMT+03:00 : Information : VsHubClient-hubController read: Content-Length: 166
+
+{"jsonrpc":"2.0","id":7,"result":{"RequestId":"abea7f48-5c3a-4493-b62e-0f6c77071bc0","PipeName":"/Users/silakazan/.ServiceHub/97c6ca435f/47d78244f3","IsEmpty":false}}
+11/18/2024 21:27:56 GMT+03:00 : Information : VsHubClient-hubController read: Content-Length: 166
+
+{"jsonrpc":"2.0","id":8,"result":{"RequestId":"e7f84342-db26-461a-ba30-7774c55580cb","PipeName":"/Users/silakazan/.ServiceHub/97c6ca435f/16d7690a4c","IsEmpty":false}}
+11/18/2024 21:27:56 GMT+03:00 : Information : Disposing ServiceBroker server '/Users/silakazan/.ServiceHub/97c6ca435f/40e91b5f65'.
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService-RemoteServiceBrokerServer write: Content-Length: 150
+
+{"jsonrpc":"2.0","id":4,"result":{"requestId":"e7f84342-db26-461a-ba30-7774c55580cb","pipeName":"/Users/silakazan/.ServiceHub/97c6ca435f/16d7690a4c"}}
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService-RemoteServiceBrokerServer read: Content-Length: 194
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":3,"runtime":2,"runtimeVersion":"8.0.11"}}]}
+11/18/2024 21:27:56 GMT+03:00 : Information : Disposing ServiceBroker server '/Users/silakazan/.ServiceHub/97c6ca435f/8e4ba6c485'.
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer read: Content-Length: 194
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":3,"runtime":2,"runtimeVersion":"8.0.11"}}]}
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer read: Content-Length: 177
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"tr","clientUICulture":"tr"}]}
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"031c6a2a-e8d8-4bc5-9c04-7fe5dde9c63c","pipeName":"/var/folders/3j/192wsqcs0sz1f48rg7nt6qqm0000gn/T/2da6ecf1260f4ac69e23278794162648"}}
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService-RemoteServiceBrokerServer read: Content-Length: 183
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"tr-TR","clientUICulture":"en-US"}]}
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"de65123e-bfd5-4122-9c6e-5b77aa3be0b2","pipeName":"/var/folders/3j/192wsqcs0sz1f48rg7nt6qqm0000gn/T/53789330b78740a3be41987284ad9304"}}
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer read: Content-Length: 188
+
+{"jsonrpc":"2.0","id":4,"method":"requestServiceChannel","params":[{"name":"Microsoft.VisualStudio.ComponentExportsService","version":"0.1"},{"clientCulture":"tr","clientUICulture":"tr"}]}
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":4,"result":{"requestId":"e66336b1-a3a4-4ef6-86b2-070843bc9682","pipeName":"/var/folders/3j/192wsqcs0sz1f48rg7nt6qqm0000gn/T/960bf851dc754458a54c23165399d00a"}}
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer read: Content-Length: 191
+
+{"jsonrpc":"2.0","id":5,"method":"requestServiceChannel","params":[{"name":"Microsoft.VisualStudio.NoDelay.EnvironmentService","version":"0.1"},{"clientCulture":"tr","clientUICulture":"tr"}]}
+11/18/2024 21:27:56 GMT+03:00 : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":5,"result":{"requestId":"e54f7bd2-c732-4fb2-b334-d63c4db7ee15","pipeName":"/var/folders/3j/192wsqcs0sz1f48rg7nt6qqm0000gn/T/226c992279284827826a439ca2935e84"}}
+11/18/2024 21:28:06 GMT+03:00 : Information : VsHubClient-hubController write: Content-Length: 1467
+
+{"jsonrpc":"2.0","id":9,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService","Version":"0.2"},{"ActivationArguments":{"__servicehub__ServiceModuleInfo_Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService":"{\"name\":null,\"host\":\"dotnet.projectSystem\",\"hostId\":\"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE\",\"serviceBaseDirectory\":\"/Users/silakazan/.vscode/extensions/ms-dotnettools.csdevkit-1.7.27-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64\",\"entryPoint\":{\"assemblyPath\":\"/Users/silakazan/.vscode/extensions/ms-dotnettools.csdevkit-1.7.27-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll\",\"fullClassName\":\"Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory\",\"scriptPath\":null,\"constructorFunction\":null,\"configPath\":null,\"appBasePath\":null,\"assemblySearchPathsConfig\":null},\"hostGroupAllowed\":null,\"hostGroupId\":null,\"serviceOverride\":null,\"singleDomainLoaderOptimization\":null,\"versionRange\":null,\"friendServices\":null}","__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/silakazan/.ServiceHub/97c6ca435f/5fc3a30c39"},"ClientCredentials":{},"ClientCulture":"tr","ClientUICulture":"tr"}]}
+11/18/2024 21:28:06 GMT+03:00 : Information : VsHubClient-hubController read: Content-Length: 166
+
+{"jsonrpc":"2.0","id":9,"result":{"RequestId":"06f77f38-9f1f-4e52-905d-863d5f02c3b7","PipeName":"/Users/silakazan/.ServiceHub/97c6ca435f/342c976e9e","IsEmpty":false}}
+11/18/2024 21:28:06 GMT+03:00 : Information : Disposing ServiceBroker server '/Users/silakazan/.ServiceHub/97c6ca435f/5fc3a30c39'.
+11/18/2024 21:28:06 GMT+03:00 : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService-RemoteServiceBrokerServer read: Content-Length: 194
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":3,"runtime":2,"runtimeVersion":"8.0.11"}}]}
+11/18/2024 21:28:06 GMT+03:00 : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+11/18/2024 21:28:06 GMT+03:00 : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService-RemoteServiceBrokerServer read: Content-Length: 177
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"tr","clientUICulture":"tr"}]}
+11/18/2024 21:28:06 GMT+03:00 : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"6c8c4901-51ec-498a-935a-a87f42c536ec","pipeName":"/var/folders/3j/192wsqcs0sz1f48rg7nt6qqm0000gn/T/306b9af190ce40b0afc6ac382ac62a4e"}}
+11/18/2024 21:28:32 GMT+03:00 : Information : VsHubClient-hubController JSON RPC has been disposed
+11/18/2024 21:28:32 GMT+03:00 : Information : VsHubClient-hubController read: end of stream
+11/18/2024 21:28:32 GMT+03:00 : Information : Microsoft.VisualStudio.TestWindow.VSCode.Service-RemoteServiceBrokerServer read: end of stream

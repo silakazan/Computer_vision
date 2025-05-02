@@ -1,0 +1,25 @@
+﻿11/18/2024 21:27:56 GMT+03:00 : Information : Local timezone is (UTC+03:00) Türkiye Saati
+11/18/2024 21:27:56 GMT+03:00 : Information : Added local RPC method "getPipe" -> Microsoft.VisualStudio.Utilities.ServiceBroker.GlobalBrokeredServiceContainer+View.GetPipeAsync(ServiceMoniker, ServiceActivationOptions, CancellationToken) (Microsoft.VisualStudio.Utilities.ServiceBroker.GlobalBrokeredServiceContainer+View)
+11/18/2024 21:27:56 GMT+03:00 : Information : Added local RPC method "getProxy" -> Microsoft.VisualStudio.Utilities.ServiceBroker.GlobalBrokeredServiceContainer+View.GetProxyAsync(ServiceRpcDescriptor, ServiceActivationOptions, CancellationToken) (Microsoft.VisualStudio.Utilities.ServiceBroker.GlobalBrokeredServiceContainer+View)
+11/18/2024 21:27:56 GMT+03:00 : Information : Added local RPC method "handshake" -> Microsoft.VisualStudio.Utilities.ServiceBroker.GlobalBrokeredServiceContainer+View.HandshakeAsync(ServiceBrokerClientMetadata, CancellationToken) (Microsoft.VisualStudio.Utilities.ServiceBroker.GlobalBrokeredServiceContainer+View)
+11/18/2024 21:27:56 GMT+03:00 : Information : Added local RPC method "requestServiceChannel" -> Microsoft.VisualStudio.Utilities.ServiceBroker.GlobalBrokeredServiceContainer+View.RequestServiceChannelAsync(ServiceMoniker, ServiceActivationOptions, CancellationToken) (Microsoft.VisualStudio.Utilities.ServiceBroker.GlobalBrokeredServiceContainer+View)
+11/18/2024 21:27:56 GMT+03:00 : Information : Added local RPC method "cancelServiceRequest" -> Microsoft.VisualStudio.Utilities.ServiceBroker.GlobalBrokeredServiceContainer+View.CancelServiceRequestAsync(Guid) (Microsoft.VisualStudio.Utilities.ServiceBroker.GlobalBrokeredServiceContainer+View)
+11/18/2024 21:27:56 GMT+03:00 : Information : Added local RPC method "getPipe" -> Microsoft.VisualStudio.Utilities.ServiceBroker.GlobalBrokeredServiceContainer+View.GetPipeAsync(ServiceMoniker, ServiceActivationOptions, CancellationToken) (Microsoft.VisualStudio.Utilities.ServiceBroker.GlobalBrokeredServiceContainer+View)
+11/18/2024 21:27:56 GMT+03:00 : Information : Added local RPC method "getProxy" -> Microsoft.VisualStudio.Utilities.ServiceBroker.GlobalBrokeredServiceContainer+View.GetProxyAsync(ServiceRpcDescriptor, ServiceActivationOptions, CancellationToken) (Microsoft.VisualStudio.Utilities.ServiceBroker.GlobalBrokeredServiceContainer+View)
+11/18/2024 21:27:56 GMT+03:00 : Information : Added local RPC method "handshake" -> Microsoft.VisualStudio.Utilities.ServiceBroker.GlobalBrokeredServiceContainer+View.HandshakeAsync(ServiceBrokerClientMetadata, CancellationToken) (Microsoft.VisualStudio.Utilities.ServiceBroker.GlobalBrokeredServiceContainer+View)
+11/18/2024 21:27:56 GMT+03:00 : Information : Added local RPC method "requestServiceChannel" -> Microsoft.VisualStudio.Utilities.ServiceBroker.GlobalBrokeredServiceContainer+View.RequestServiceChannelAsync(ServiceMoniker, ServiceActivationOptions, CancellationToken) (Microsoft.VisualStudio.Utilities.ServiceBroker.GlobalBrokeredServiceContainer+View)
+11/18/2024 21:27:56 GMT+03:00 : Information : Added local RPC method "cancelServiceRequest" -> Microsoft.VisualStudio.Utilities.ServiceBroker.GlobalBrokeredServiceContainer+View.CancelServiceRequestAsync(Guid) (Microsoft.VisualStudio.Utilities.ServiceBroker.GlobalBrokeredServiceContainer+View)
+11/18/2024 21:27:56 GMT+03:00: Information : 2 :Listening for events from Microsoft.VisualStudio.Utilities.ServiceBroker.GlobalBrokeredServiceContainer+View.AvailabilityChanged to raise notification.
+11/18/2024 21:27:56 GMT+03:00: Information : 3 :Listening started.
+11/18/2024 21:27:56 GMT+03:00: Information : 7 :{"id":2,"method":"handshake"}
+11/18/2024 21:27:56 GMT+03:00: Information : 6 :Received request "2" for method "handshake".
+11/18/2024 21:27:56 GMT+03:00: Information : 9 :Invoking Microsoft.VisualStudio.Utilities.ServiceBroker.GlobalBrokeredServiceContainer+View.HandshakeAsync(ServiceBrokerClientMetadata, CancellationToken)
+11/18/2024 21:27:56 GMT+03:00 : Start : handshake
+11/18/2024 21:27:56 GMT+03:00 : Stop : handshake
+11/18/2024 21:27:56 GMT+03:00: Information : 8 :{"id":2}
+11/18/2024 21:27:56 GMT+03:00: Information : 7 :{"id":3,"method":"requestServiceChannel"}
+11/18/2024 21:27:56 GMT+03:00: Information : 6 :Received request "3" for method "requestServiceChannel".
+11/18/2024 21:27:56 GMT+03:00: Information : 9 :Invoking Microsoft.VisualStudio.Utilities.ServiceBroker.GlobalBrokeredServiceContainer+View.RequestServiceChannelAsync(ServiceMoniker, ServiceActivationOptions, CancellationToken)
+11/18/2024 21:27:56 GMT+03:00 : Start : requestServiceChannel
+11/18/2024 21:27:56 GMT+03:00 : Stop : requestServiceChannel
+11/18/2024 21:27:56 GMT+03:00: Information : 8 :{"id":3}

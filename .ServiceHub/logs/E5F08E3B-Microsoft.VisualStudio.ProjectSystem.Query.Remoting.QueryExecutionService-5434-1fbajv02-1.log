@@ -1,0 +1,81 @@
+﻿11/18/2024 21:38:11 GMT+03:00 : Information : Local timezone is (UTC+03:00) Türkiye Saati
+11/18/2024 21:38:11 GMT+03:00 : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService read: Content-Length: 311
+
+{"jsonrpc":"2.0","id":0,"method":"ExecuteQueryAsync","params":["{\"context\":\"Projects\",\"query\":{\"$properties\":[\"Id\",\"Path\",\"Files\"],\"Files\":{\"$properties\":[\"Id\",\"Path\"],\"$filter\":{\"FilesByPath\":[[\"/Users/silakazan/Desktop/c#/Program.cs\"]]}},\"$where\":{\"any\":{\".\":\"Files\"}}}}"]}
+11/18/2024 21:38:11 GMT+03:00 : Information : Added local RPC method "ExecuteQueryAsync" -> Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim.ExecuteQueryAsync(String, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+11/18/2024 21:38:11 GMT+03:00 : Information : Added local RPC method "ExecuteRemoteExecutableAsync" -> Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim.ExecuteRemoteExecutableAsync(String, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+11/18/2024 21:38:11 GMT+03:00 : Information : Added local RPC method "GetServiceIdentityAsync" -> Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim.GetServiceIdentityAsync(CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+11/18/2024 21:38:11 GMT+03:00 : Information : Added local RPC method "QueryAsync" -> Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim.QueryAsync(String, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+11/18/2024 21:38:11 GMT+03:00 : Information : Added local RPC method "SubscribeQueryResultsAsync" -> Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim.SubscribeQueryResultsAsync(String, IObserver`1, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+11/18/2024 21:38:11 GMT+03:00 : Information : Added local RPC method "TrackQueryUpdatesAsync" -> Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim.TrackQueryUpdatesAsync(String, IObserver`1, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+11/18/2024 21:38:11 GMT+03:00 : Information : Added local RPC method "Dispose" -> Microsoft.VisualStudio.ProjectSystem.OnceInitializedOnceDisposedAsync.Dispose() (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+11/18/2024 21:38:11 GMT+03:00 : Information : Added local RPC method "DisposeAsync" -> Microsoft.VisualStudio.ProjectSystem.OnceInitializedOnceDisposedAsync.DisposeAsync() (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+11/18/2024 21:38:11 GMT+03:00 : Information : Added local RPC method "ExecuteQuery" -> Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim.ExecuteQueryAsync(String, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+11/18/2024 21:38:11 GMT+03:00 : Information : Added local RPC method "ExecuteRemoteExecutable" -> Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim.ExecuteRemoteExecutableAsync(String, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+11/18/2024 21:38:11 GMT+03:00 : Information : Added local RPC method "GetServiceIdentity" -> Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim.GetServiceIdentityAsync(CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+11/18/2024 21:38:11 GMT+03:00 : Information : Added local RPC method "Query" -> Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim.QueryAsync(String, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+11/18/2024 21:38:11 GMT+03:00 : Information : Added local RPC method "SubscribeQueryResults" -> Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim.SubscribeQueryResultsAsync(String, IObserver`1, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+11/18/2024 21:38:11 GMT+03:00 : Information : Added local RPC method "TrackQueryUpdates" -> Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim.TrackQueryUpdatesAsync(String, IObserver`1, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+11/18/2024 21:38:11 GMT+03:00: Information : 3 :Listening started.
+11/18/2024 21:38:11 GMT+03:00: Information : 7 :{"id":0,"method":"ExecuteQueryAsync"}
+11/18/2024 21:38:11 GMT+03:00: Information : 6 :Received request "0" for method "ExecuteQueryAsync".
+11/18/2024 21:38:11 GMT+03:00: Information : 9 :Invoking Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim.ExecuteQueryAsync(String, CancellationToken)
+11/18/2024 21:38:11 GMT+03:00 : Start : ExecuteQueryAsync
+11/18/2024 21:38:11 GMT+03:00: Error : 10 :Exception thrown from request "0" for method ExecuteQueryAsync: System.AggregateException: One or more errors occurred. (One or more errors occurred. (Bilgisayarda yüklü .NET SDK bulunamadı. Yüklü ise, PATH ortam değişkeni aracılığıyla bulunabildiğinden emin olun.))
+ ---> System.AggregateException: One or more errors occurred. (Bilgisayarda yüklü .NET SDK bulunamadı. Yüklü ise, PATH ortam değişkeni aracılığıyla bulunabildiğinden emin olun.)
+ ---> System.InvalidOperationException: Bilgisayarda yüklü .NET SDK bulunamadı. Yüklü ise, PATH ortam değişkeni aracılığıyla bulunabildiğinden emin olun.
+   at Microsoft.VisualStudio.ProjectSystem.Server.BuildHostProcessHost.InitializeBuildHostProcessAsync(String buildHostLocation, String userWorkingDirectory, IServiceBroker serviceBroker)
+   at Microsoft.VisualStudio.ProjectSystem.Server.BuildHostProcessHost.<>c__DisplayClass17_0.<<InitializeAsync>g__InitializeBuildHostProcessBasedOnEnvironmentStateAsync|1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.VisualStudio.ProjectSystem.DataReceivingBlockSlim`1.ProcessInputQueueAsync(InputDataBuffer inputQueue)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualStudio.ProjectSystem.Server.ProcessServiceContainer.InitializeProjectSystemCompositionAsync(IEnumerable`1 exportAssemblies, IReadOnlyList`1 msBuildPackages)
+   at Microsoft.VisualStudio.ProjectSystem.Server.ProcessServiceContainer.GetCompositionHostWhenReadyAsync(CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory.<>c__DisplayClass1_0.<<CreateAsync>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.VisualStudio.Threading.AwaitExtensions.ExecuteContinuationSynchronouslyAwaiter`1.GetResult()
+   at Microsoft.VisualStudio.Threading.AsyncLazy`1.<>c__DisplayClass20_0.<<GetValueAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory.<>c__DisplayClass1_0.<<CreateAsync>g__CreateQueryExecutionServiceAsync|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.VisualStudio.Threading.AwaitExtensions.ExecuteContinuationSynchronouslyAwaiter.GetResult()
+   at Microsoft.VisualStudio.ProjectSystem.OnceInitializedOnceDisposedAsync.<.ctor>b__9_0()
+   at Microsoft.VisualStudio.Threading.AwaitExtensions.ExecuteContinuationSynchronouslyAwaiter`1.GetResult()
+   at Microsoft.VisualStudio.Threading.AsyncLazy`1.<>c__DisplayClass20_0.<<GetValueAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory.QueryExecutionServiceShim.<ExecuteQueryAsync>g__ExecuteQueryImplementationAsync|5_0(String query, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+11/18/2024 21:38:11 GMT+03:00: Error : 10 :System.AggregateException: One or more errors occurred. (One or more errors occurred. (Bilgisayarda yüklü .NET SDK bulunamadı. Yüklü ise, PATH ortam değişkeni aracılığıyla bulunabildiğinden emin olun.))
+ ---> System.AggregateException: One or more errors occurred. (Bilgisayarda yüklü .NET SDK bulunamadı. Yüklü ise, PATH ortam değişkeni aracılığıyla bulunabildiğinden emin olun.)
+ ---> System.InvalidOperationException: Bilgisayarda yüklü .NET SDK bulunamadı. Yüklü ise, PATH ortam değişkeni aracılığıyla bulunabildiğinden emin olun.
+   at Microsoft.VisualStudio.ProjectSystem.Server.BuildHostProcessHost.InitializeBuildHostProcessAsync(String buildHostLocation, String userWorkingDirectory, IServiceBroker serviceBroker)
+   at Microsoft.VisualStudio.ProjectSystem.Server.BuildHostProcessHost.<>c__DisplayClass17_0.<<InitializeAsync>g__InitializeBuildHostProcessBasedOnEnvironmentStateAsync|1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.VisualStudio.ProjectSystem.DataReceivingBlockSlim`1.ProcessInputQueueAsync(InputDataBuffer inputQueue)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualStudio.ProjectSystem.Server.ProcessServiceContainer.InitializeProjectSystemCompositionAsync(IEnumerable`1 exportAssemblies, IReadOnlyList`1 msBuildPackages)
+   at Microsoft.VisualStudio.ProjectSystem.Server.ProcessServiceContainer.GetCompositionHostWhenReadyAsync(CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory.<>c__DisplayClass1_0.<<CreateAsync>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.VisualStudio.Threading.AwaitExtensions.ExecuteContinuationSynchronouslyAwaiter`1.GetResult()
+   at Microsoft.VisualStudio.Threading.AsyncLazy`1.<>c__DisplayClass20_0.<<GetValueAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory.<>c__DisplayClass1_0.<<CreateAsync>g__CreateQueryExecutionServiceAsync|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.VisualStudio.Threading.AwaitExtensions.ExecuteContinuationSynchronouslyAwaiter.GetResult()
+   at Microsoft.VisualStudio.ProjectSystem.OnceInitializedOnceDisposedAsync.<.ctor>b__9_0()
+   at Microsoft.VisualStudio.Threading.AwaitExtensions.ExecuteContinuationSynchronouslyAwaiter`1.GetResult()
+   at Microsoft.VisualStudio.Threading.AsyncLazy`1.<>c__DisplayClass20_0.<<GetValueAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory.QueryExecutionServiceShim.<ExecuteQueryAsync>g__ExecuteQueryImplementationAsync|5_0(String query, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---, ExecuteQueryAsync, 0, Newtonsoft.Json.Linq.JToken[]
+11/18/2024 21:38:11 GMT+03:00 : Stop : ExecuteQueryAsync
+11/18/2024 21:38:11 GMT+03:00: Information : 8 :{"id":0,"error":{"code":-32000,"message":"One or more errors occurred. (Bilgisayarda yüklü .NET SDK bulunamadı. Yüklü ise, PATH ortam değişkeni aracılığıyla bulunabildiğinden emin olun.)"}}
+11/18/2024 21:38:11 GMT+03:00 : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService write: Content-Length: 2901
+
+{"jsonrpc":"2.0","id":0,"error":{"data":{"type":"System.AggregateException","message":"One or more errors occurred. (Bilgisayarda yüklü .NET SDK bulunamadı. Yüklü ise, PATH ortam değişkeni aracılığıyla bulunabildiğinden emin olun.)","stack":"   at Microsoft.VisualStudio.ProjectSystem.Server.ProcessServiceContainer.InitializeProjectSystemCompositionAsync(IEnumerable`1 exportAssemblies, IReadOnlyList`1 msBuildPackages)\n   at Microsoft.VisualStudio.ProjectSystem.Server.ProcessServiceContainer.GetCompositionHostWhenReadyAsync(CancellationToken cancellationToken)\n   at Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory.<>c__DisplayClass1_0.<<CreateAsync>b__1>d.MoveNext()\n--- End of stack trace from previous location ---\n   at Microsoft.VisualStudio.Threading.AwaitExtensions.ExecuteContinuationSynchronouslyAwaiter`1.GetResult()\n   at Microsoft.VisualStudio.Threading.AsyncLazy`1.<>c__DisplayClass20_0.<<GetValueAsync>b__0>d.MoveNext()\n--- End of stack trace from previous location ---\n   at Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory.<>c__DisplayClass1_0.<<CreateAsync>g__CreateQueryExecutionServiceAsync|0>d.MoveNext()\n--- End of stack trace from previous location ---\n   at Microsoft.VisualStudio.Threading.AwaitExtensions.ExecuteContinuationSynchronouslyAwaiter.GetResult()\n   at Microsoft.VisualStudio.ProjectSystem.OnceInitializedOnceDisposedAsync.<.ctor>b__9_0()\n   at Microsoft.VisualStudio.Threading.AwaitExtensions.ExecuteContinuationSynchronouslyAwaiter`1.GetResult()\n   at Microsoft.VisualStudio.Threading.AsyncLazy`1.<>c__DisplayClass20_0.<<GetValueAsync>b__0>d.MoveNext()\n--- End of stack trace from previous location ---\n   at Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory.QueryExecutionServiceShim.<ExecuteQueryAsync>g__ExecuteQueryImplementationAsync|5_0(String query, CancellationToken cancellationToken)","code":-2146233088,"inner":{"type":"System.InvalidOperationException","message":"Bilgisayarda yüklü .NET SDK bulunamadı. Yüklü ise, PATH ortam değişkeni aracılığıyla bulunabildiğinden emin olun.","stack":"   at Microsoft.VisualStudio.ProjectSystem.Server.BuildHostProcessHost.InitializeBuildHostProcessAsync(String buildHostLocation, String userWorkingDirectory, IServiceBroker serviceBroker)\n   at Microsoft.VisualStudio.ProjectSystem.Server.BuildHostProcessHost.<>c__DisplayClass17_0.<<InitializeAsync>g__InitializeBuildHostProcessBasedOnEnvironmentStateAsync|1>d.MoveNext()\n--- End of stack trace from previous location ---\n   at Microsoft.VisualStudio.ProjectSystem.DataReceivingBlockSlim`1.ProcessInputQueueAsync(InputDataBuffer inputQueue)","code":-2146233079}},"code":-32000,"message":"One or more errors occurred. (Bilgisayarda yüklü .NET SDK bulunamadı. Yüklü ise, PATH ortam değişkeni aracılığıyla bulunabildiğinden emin olun.)"}}
+11/18/2024 21:38:11 GMT+03:00 : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService read: end of stream
+11/18/2024 21:38:11 GMT+03:00 : Information : Waiting for 'Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService' instance to complete its completionTask.
+11/18/2024 21:38:11 GMT+03:00: Information : 13 :Connection closing (RemotePartyTerminated: Akışın sonuna ulaşıldı.). 
+11/18/2024 21:38:11 GMT+03:00 : Information : Disposed 'Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService' via 'completionTask' method.
+11/18/2024 21:38:11 GMT+03:00 : Information : Finishing shutting down service: Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService.

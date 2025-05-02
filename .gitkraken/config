@@ -1,0 +1,189 @@
+{
+  "lastUpgradeScriptRun": "v10.6.0",
+  "appId": "86be553e0c426e307910e6495bdfddf4b45cdf52",
+  "appLocale": "en-TR",
+  "appDateFormat": null,
+  "appDateTimeFormat": null,
+  "appDateWordFormat": null,
+  "appDateVerboseFormat": null,
+  "userMilestones": {
+    "installId": "bfc27231-ea80-4e9b-8530-528221bb3685",
+    "firstAppOpen": true,
+    "firstLoginRegister": true,
+    "firstProfileCreated": true,
+    "completedNewUserOnboarding": true,
+    "firstRepoOpened": true,
+    "startATrial": true,
+    "acknowledgedTipIntroTutorialTabClosed": true,
+    "connectIntegration": true
+  },
+  "sslWhitelist": [],
+  "lastReleaseNotesDisplayed": "10.6.0",
+  "ui": {
+    "shouldShowStartupPromoModal": false
+  },
+  "aliases": {
+    "repo": {},
+    "tabs": {}
+  },
+  "registration": {
+    "email": "sila.kazan0626@gmail.com",
+    "name": "sılakazan",
+    "status": "activated",
+    "loginType": "github",
+    "date": "2024-12-18T14:07:41.023Z",
+    "EULA": {
+      "status": "agree_verified",
+      "version": "8.3.1"
+    }
+  },
+  "userId": "5e92fac9-b94c-4083-8cc0-971e2eb9c38c",
+  "licensedFeatures": [
+    "pro",
+    "gitgui:pro",
+    "gitlens:pro",
+    "bundle:pro",
+    "gitkraken_v1:pro",
+    "suite:pro",
+    "trial",
+    "gitgui:trial",
+    "gitlens:trial",
+    "bundle:trial",
+    "gitkraken_v1:trial",
+    "suite:trial"
+  ],
+  "orgSettingsByOrgId": {
+    "6762d72a86913b7cfd782d93": {
+      "aiSettings": {
+        "enabled": true,
+        "createdAt": "2024-12-18T14:07:38.276005Z",
+        "updatedAt": "2024-12-18T14:07:38.278604Z"
+      },
+      "draftsSettings": {
+        "enabled": true,
+        "createdAt": "2024-12-18T14:07:42.265046Z",
+        "updatedAt": "2024-12-18T14:07:42.265046Z"
+      },
+      "ssoSettings": {
+        "enabled": false,
+        "enforced": false,
+        "provision": false,
+        "createdAt": "2024-12-18T14:07:38.276005Z",
+        "updatedAt": "2024-12-18T14:07:38.278604Z"
+      },
+      "memberInvitesRequireApproval": true,
+      "createdAt": "2024-12-18T14:07:38.276005Z",
+      "updatedAt": "2024-12-18T14:07:38.278604Z"
+    }
+  },
+  "fuzzyFinderMetadata": {
+    "itemMetadata": {
+      "OPEN_REPO": {
+        "openRepo-/Users/silakazan/.gitkraken/tutorial/Intro": {
+          "id": "openRepo-/Users/silakazan/.gitkraken/tutorial/Intro",
+          "timestamps": [
+            1734530870562
+          ],
+          "total": 1
+        }
+      }
+    }
+  },
+  "tutorial": {
+    "isLifecycleAlreadyTriggeredByTutorialKey": {
+      "INTRO_TUTORIAL": {
+        "TUTORIAL_OPENED": true,
+        "TUTORIAL_CLOSED": true
+      }
+    }
+  },
+  "windowSettings": {
+    "x": 244,
+    "y": 38,
+    "width": 1251,
+    "height": 800,
+    "fullScreen": false,
+    "maximized": false
+  },
+  "userFeatures": [
+    {
+      "name": "activityStatus"
+    },
+    {
+      "name": "changePriceEnabled"
+    },
+    {
+      "name": "cli"
+    },
+    {
+      "name": "experimentalAiCommmitMsg"
+    },
+    {
+      "name": "experimentalGitBinary"
+    },
+    {
+      "name": "experimentalGitBinaryDefaultOn971"
+    },
+    {
+      "name": "experimentalGitBinarySpawnServer961"
+    },
+    {
+      "name": "gitBash"
+    },
+    {
+      "name": "gitkraken"
+    },
+    {
+      "name": "gkApi"
+    },
+    {
+      "name": "gkdOnboardingTutorial_10_5_0"
+    },
+    {
+      "name": "gkDotDevInsights"
+    },
+    {
+      "name": "gkDotDevNewPurchaseFlow"
+    },
+    {
+      "name": "GKDotDevShowSsoSettings"
+    },
+    {
+      "name": "gkDotDevUserflow"
+    },
+    {
+      "name": "goldenTicketSpecial"
+    },
+    {
+      "name": "noGlobalFocusView"
+    },
+    {
+      "name": "onboardingGuide"
+    },
+    {
+      "name": "privateRepoModalTest_10_5_0"
+    },
+    {
+      "name": "registeredForGST"
+    },
+    {
+      "name": "terminalInsideRepoTab"
+    },
+    {
+      "name": "unregisteredTrials"
+    },
+    {
+      "name": "velocityInClient_9_0_0"
+    },
+    {
+      "name": "version_2"
+    },
+    {
+      "name": "workspacesPRComplexity"
+    }
+  ],
+  "hasSeenTrialStartedModal": true,
+  "commits": {
+    "maxCommitsInGraph": 2000
+  }
+}

@@ -1,0 +1,25 @@
+Signature-Version: 1.0
+Created-By: 17.0.8.1 (Eclipse Adoptium)
+SHA-256-Digest-Manifest: wEUOP5o4LrG3yLInCrN0m2lI/3mUGOedQk7qU/4PhGA=
+SHA-256-Digest-Manifest-Main-Attributes: d+6JJjEtEIQyXH5p4hagi+1S9b69JwM
+ SuBmku3iGrr4=
+
+Name: schema/pydev_parser_observer.exsd
+SHA-256-Digest: acMQ0ljk262HXCC1dxc6fenp7hSlYL9VtrJWbWDLNFU=
+
+Name: plugin.xml
+SHA-256-Digest: vwAhs+5oTjfnqk+dLB/djzOAERzH4nmKmhiBS/SeNQ4=
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev.parser/pom.xml
+SHA-256-Digest: yl9OCWajCW/21aQsYkgXbCnEUo+t0NMSqi+EU98Tfac=
+
+Name: parser.jar
+SHA-256-Digest: CT4ohsSHxdVPbz3RVBYBP9OWQW3Ox5OHliwZikK6Ww8=
+
+Name: LICENSE.txt
+SHA-256-Digest: kKR//0aU3zBgl9SCeCpwoQ+GrOEHBzEb90XcPTX/6Do=
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev.parser/pom.proper
+ ties
+SHA-256-Digest: F3G552Fbj0nyWjCdybzCNg+A69vf++u9uKtSmCapPJs=
+

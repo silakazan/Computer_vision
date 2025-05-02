@@ -1,0 +1,58 @@
+﻿11/18/2024 21:22:33 GMT+03:00 : Information : Local timezone is (UTC+03:00) Türkiye Saati
+11/18/2024 21:22:33 GMT+03:00 : Information : Service Hub .NET service module host started. Host id: dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE. Controller pipe: net.pipe://48638581DC. PID: 4879
+11/18/2024 21:22:33 GMT+03:00 : Information : hubHostClr read: Content-Length: 111
+
+{"jsonrpc":"2.0","id":2,"method":"initializeHost","params":[{"HostsRootDirectory":".","AppConfigFallback":""}]}
+11/18/2024 21:22:33 GMT+03:00 : Information : hubHostClr write: Content-Length: 93
+
+{"jsonrpc":"2.0","id":2,"result":"dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE"}
+11/18/2024 21:22:33 GMT+03:00 : Information : hubHostClr read: Content-Length: 2071
+
+{"jsonrpc":"2.0","id":3,"method":"startService","params":[{"name":"Microsoft.VisualStudio.LaunchConfigurationService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/silakazan/.vscode/extensions/ms-dotnettools.csdevkit-1.7.27-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64","entryPoint":{"assemblyPath":"/Users/silakazan/.vscode/extensions/ms-dotnettools.csdevkit-1.7.27-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceModuleInfo_Microsoft.VisualStudio.LaunchConfigurationService":"{\"name\":null,\"host\":\"dotnet.projectSystem\",\"hostId\":\"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE\",\"serviceBaseDirectory\":\"/Users/silakazan/.vscode/extensions/ms-dotnettools.csdevkit-1.7.27-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64\",\"entryPoint\":{\"assemblyPath\":\"/Users/silakazan/.vscode/extensions/ms-dotnettools.csdevkit-1.7.27-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll\",\"fullClassName\":\"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory\",\"scriptPath\":null,\"constructorFunction\":null,\"configPath\":null,\"appBasePath\":null,\"assemblySearchPathsConfig\":null},\"hostGroupAllowed\":null,\"hostGroupId\":null,\"serviceOverride\":null,\"singleDomainLoaderOptimization\":null,\"versionRange\":null,\"friendServices\":null}","__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/silakazan/.ServiceHub/e06ea26b96/3c8a82b00a"},"ClientCredentials":{},"ClientCulture":"tr","ClientUICulture":"tr"}]}
+11/18/2024 21:22:33 GMT+03:00 : Information : CLR host received start request for service 'Microsoft.VisualStudio.LaunchConfigurationService'
+11/18/2024 21:22:33 GMT+03:00 : Information : Loading service module assembly '/Users/silakazan/.vscode/extensions/ms-dotnettools.csdevkit-1.7.27-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll' from '/Users/silakazan/.vscode/extensions/ms-dotnettools.csdevkit-1.7.27-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64'
+11/18/2024 21:22:33 GMT+03:00 : Information : Starting service module 'Microsoft.VisualStudio.LaunchConfigurationService'. Class: Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory, Supported Version: 
+11/18/2024 21:22:33 GMT+03:00 : Information : Started service 'Microsoft.VisualStudio.LaunchConfigurationService'. Pipe name: /Users/silakazan/.ServiceHub/e06ea26b96/f696b5abff, Supported Version: 
+11/18/2024 21:22:33 GMT+03:00 : Information : hubHostClr write: Content-Length: 86
+
+{"jsonrpc":"2.0","id":3,"result":"/Users/silakazan/.ServiceHub/e06ea26b96/f696b5abff"}
+11/18/2024 21:22:33 GMT+03:00 : Information : A new client connected to CLR service module 'Microsoft.VisualStudio.LaunchConfigurationService'
+11/18/2024 21:22:33 GMT+03:00 : Information : hubHostClr write: Content-Length: 119
+
+{"jsonrpc":"2.0","method":"hostServicesStarted","params":["dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE"]}
+11/18/2024 21:22:33 GMT+03:00 : Information : Found FactoryVersion=Version2 for service : Microsoft.VisualStudio.LaunchConfigurationService.
+11/18/2024 21:22:33 GMT+03:00 : Information : Service 'Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory' implements IServiceHubServiceFactory. Creating factory instance and caching it.
+11/18/2024 21:22:34 GMT+03:00 : Information : Creating service Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory from factory with FactoryVersion=Version2 and ClientRequestedVersion=.
+11/18/2024 21:22:34 GMT+03:00 : Information : Setting up RPC connection for service 'Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory' from factory
+11/18/2024 21:22:34 GMT+03:00 : Information : hubHostClr read: Content-Length: 2113
+
+{"jsonrpc":"2.0","id":4,"method":"startService","params":[{"name":"Microsoft.VisualStudio.ProjectSystem.CompositionService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/silakazan/.vscode/extensions/ms-dotnettools.csdevkit-1.7.27-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64","entryPoint":{"assemblyPath":"/Users/silakazan/.vscode/extensions/ms-dotnettools.csdevkit-1.7.27-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.CompositionServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceModuleInfo_Microsoft.VisualStudio.ProjectSystem.CompositionService":"{\"name\":null,\"host\":\"dotnet.projectSystem\",\"hostId\":\"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE\",\"serviceBaseDirectory\":\"/Users/silakazan/.vscode/extensions/ms-dotnettools.csdevkit-1.7.27-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64\",\"entryPoint\":{\"assemblyPath\":\"/Users/silakazan/.vscode/extensions/ms-dotnettools.csdevkit-1.7.27-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll\",\"fullClassName\":\"Microsoft.VisualStudio.ProjectSystem.Server.CompositionServiceFactory\",\"scriptPath\":null,\"constructorFunction\":null,\"configPath\":null,\"appBasePath\":null,\"assemblySearchPathsConfig\":null},\"hostGroupAllowed\":null,\"hostGroupId\":null,\"serviceOverride\":null,\"singleDomainLoaderOptimization\":null,\"versionRange\":null,\"friendServices\":null}","__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/silakazan/.ServiceHub/e06ea26b96/70ff066731","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"tr","ClientUICulture":"tr"}]}
+11/18/2024 21:22:34 GMT+03:00 : Information : CLR host received start request for service 'Microsoft.VisualStudio.ProjectSystem.CompositionService'
+11/18/2024 21:22:34 GMT+03:00 : Information : Loading service module assembly '/Users/silakazan/.vscode/extensions/ms-dotnettools.csdevkit-1.7.27-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll' from '/Users/silakazan/.vscode/extensions/ms-dotnettools.csdevkit-1.7.27-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64'
+11/18/2024 21:22:34 GMT+03:00 : Information : Starting service module 'Microsoft.VisualStudio.ProjectSystem.CompositionService'. Class: Microsoft.VisualStudio.ProjectSystem.Server.CompositionServiceFactory, Supported Version: 
+11/18/2024 21:22:34 GMT+03:00 : Information : Started service 'Microsoft.VisualStudio.ProjectSystem.CompositionService'. Pipe name: /Users/silakazan/.ServiceHub/e06ea26b96/668b333c19, Supported Version: 
+11/18/2024 21:22:34 GMT+03:00 : Information : hubHostClr write: Content-Length: 86
+
+{"jsonrpc":"2.0","id":4,"result":"/Users/silakazan/.ServiceHub/e06ea26b96/668b333c19"}
+11/18/2024 21:22:34 GMT+03:00 : Information : A new client connected to CLR service module 'Microsoft.VisualStudio.ProjectSystem.CompositionService'
+11/18/2024 21:22:34 GMT+03:00 : Information : Found FactoryVersion=Version2 for service : Microsoft.VisualStudio.ProjectSystem.CompositionService.
+11/18/2024 21:22:34 GMT+03:00 : Information : Service 'Microsoft.VisualStudio.ProjectSystem.Server.CompositionServiceFactory' implements IServiceHubServiceFactory. Creating factory instance and caching it.
+11/18/2024 21:22:34 GMT+03:00 : Information : Creating service Microsoft.VisualStudio.ProjectSystem.Server.CompositionServiceFactory from factory with FactoryVersion=Version2 and ClientRequestedVersion=0.1.
+11/18/2024 21:22:34 GMT+03:00 : Information : Setting up RPC connection for service 'Microsoft.VisualStudio.ProjectSystem.Server.CompositionServiceFactory' from factory
+11/18/2024 21:22:34 GMT+03:00 : Information : Completed RPC connection setup for service 'Microsoft.VisualStudio.ProjectSystem.Server.CompositionServiceFactory' from factory
+11/18/2024 21:22:34 GMT+03:00 : Information : Completed RPC connection setup for service 'Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory' from factory
+11/18/2024 21:25:42 GMT+03:00 : Information : hubHostClr write: Content-Length: 117
+
+{"jsonrpc":"2.0","method":"hostServicesEnded","params":["dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE"]}
+11/18/2024 21:25:42 GMT+03:00 : Information : hubHostClr read: Content-Length: 46
+
+{"jsonrpc":"2.0","method":"exit","params":[3]}
+11/18/2024 21:25:42 GMT+03:00 : Information : Exit command received with reason 'ForcedControllerShutdown'. Exiting CLR host
+11/18/2024 21:25:42 GMT+03:00 : Information : Checking if 'Microsoft.VisualStudio.ProjectSystem.Server.CompositionServiceFactory' implements Microsoft.VisualStudio.Threading.IAsyncDisposable.
+11/18/2024 21:25:42 GMT+03:00 : Information : Checking if 'Microsoft.VisualStudio.ProjectSystem.Server.CompositionServiceFactory' implements System.IAsyncDisposable.
+11/18/2024 21:25:42 GMT+03:00 : Information : Checking if 'Microsoft.VisualStudio.ProjectSystem.Server.CompositionServiceFactory' implements System.IDisposable.
+11/18/2024 21:25:42 GMT+03:00 : Information : Checking if 'Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory' implements Microsoft.VisualStudio.Threading.IAsyncDisposable.
+11/18/2024 21:25:42 GMT+03:00 : Information : Checking if 'Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory' implements System.IAsyncDisposable.
+11/18/2024 21:25:42 GMT+03:00 : Information : Checking if 'Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory' implements System.IDisposable.
+11/18/2024 21:25:42 GMT+03:00 : Information : hubHostClr JSON RPC has been disposed
+11/18/2024 21:25:42 GMT+03:00 : Information : hubHostClr read: end of stream

@@ -1,0 +1,28 @@
+Signature-Version: 1.0
+Created-By: 17.0.8.1 (Eclipse Adoptium)
+SHA-256-Digest-Manifest: Jxs60Pp1Pr1ZllkKDPxP+6SF9jkZg0Z3eFBVLH+tVdQ=
+SHA-256-Digest-Manifest-Main-Attributes: EacMGfbOp+tAa1xhHwmRM+8Kn3PDDAO
+ qG4UbzUH3sw0=
+
+Name: analysis.jar
+SHA-256-Digest: CUm7PLOORZTRu/APKBOuAx/+iTw7ZjZ0pl8xOpTTm5k=
+
+Name: plugin.xml
+SHA-256-Digest: jnUgMiCwQohejTDUcDdYxCcXEduYKSeQBHKoPjA6LLU=
+
+Name: LICENSE.TXT
+SHA-256-Digest: mtk2pu43aWF40oMq/sr3cRMcILygEgrX4KgNzXYsnaA=
+
+Name: META-INF/maven/org.python.pydev/com.python.pydev.analysis/pom.xml
+SHA-256-Digest: k7E0dGvSQCoU32UygUHw6cm/FXeQ9+v3iIBe/YB1JzU=
+
+Name: icons/python_file.gif
+SHA-256-Digest: C0chHUngMwZs5HXGTU9zGI0/OXlMQeVzK9EWK9X2sDE=
+
+Name: icons/opentype.gif
+SHA-256-Digest: Uc6sQw31uedjA/fOP8oDbjfWKxf5iR886o8NC+gHsX8=
+
+Name: META-INF/maven/org.python.pydev/com.python.pydev.analysis/pom.prop
+ erties
+SHA-256-Digest: QSyYDOp9Fpp69QTEufWSJ/XrlpwRXzoTXojF6em9ufk=
+

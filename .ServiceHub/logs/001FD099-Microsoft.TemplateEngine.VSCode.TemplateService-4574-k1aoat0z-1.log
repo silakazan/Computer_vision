@@ -1,0 +1,15 @@
+﻿11/18/2024 21:21:45 GMT+03:00 : Information : Local timezone is (UTC+03:00) Türkiye Saati
+11/18/2024 21:21:45 GMT+03:00 : Information : Added local RPC method "initialize" -> Microsoft.TemplateEngine.VSCode.Implementation.TemplateService.InitializeAsync(String, String, CancellationToken) (Microsoft.TemplateEngine.VSCode.Implementation.TemplateService)
+11/18/2024 21:21:45 GMT+03:00 : Information : Added local RPC method "getProjectTemplates" -> Microsoft.TemplateEngine.VSCode.Implementation.TemplateService.GetProjectTemplatesAsync(CancellationToken) (Microsoft.TemplateEngine.VSCode.Implementation.TemplateService)
+11/18/2024 21:21:45 GMT+03:00 : Information : Added local RPC method "getProjectParameters" -> Microsoft.TemplateEngine.VSCode.Implementation.TemplateService.GetProjectParametersAsync(String, CancellationToken) (Microsoft.TemplateEngine.VSCode.Implementation.TemplateService)
+11/18/2024 21:21:45 GMT+03:00 : Information : Added local RPC method "createProject" -> Microsoft.TemplateEngine.VSCode.Implementation.TemplateService.CreateProjectAsync(String, String, String, Dictionary`2, CancellationToken) (Microsoft.TemplateEngine.VSCode.Implementation.TemplateService)
+11/18/2024 21:21:45 GMT+03:00 : Information : Added local RPC method "initialize" -> Microsoft.TemplateEngine.VSCode.Implementation.TemplateService.InitializeAsync(String, String, CancellationToken) (Microsoft.TemplateEngine.VSCode.Implementation.TemplateService)
+11/18/2024 21:21:45 GMT+03:00 : Information : Added local RPC method "getProjectTemplates" -> Microsoft.TemplateEngine.VSCode.Implementation.TemplateService.GetProjectTemplatesAsync(CancellationToken) (Microsoft.TemplateEngine.VSCode.Implementation.TemplateService)
+11/18/2024 21:21:45 GMT+03:00 : Information : Added local RPC method "getProjectParameters" -> Microsoft.TemplateEngine.VSCode.Implementation.TemplateService.GetProjectParametersAsync(String, CancellationToken) (Microsoft.TemplateEngine.VSCode.Implementation.TemplateService)
+11/18/2024 21:21:45 GMT+03:00 : Information : Added local RPC method "createProject" -> Microsoft.TemplateEngine.VSCode.Implementation.TemplateService.CreateProjectAsync(String, String, String, Dictionary`2, CancellationToken) (Microsoft.TemplateEngine.VSCode.Implementation.TemplateService)
+11/18/2024 21:21:45 GMT+03:00: Information : 3 :Listening started.
+11/18/2024 21:21:53 GMT+03:00 : Information : Microsoft.TemplateEngine.VSCode.TemplateService read: end of stream
+11/18/2024 21:21:53 GMT+03:00 : Information : Waiting for 'Microsoft.TemplateEngine.VSCode.TemplateService' instance to complete its completionTask.
+11/18/2024 21:21:53 GMT+03:00: Information : 13 :Connection closing (RemotePartyTerminated: Akışın sonuna ulaşıldı.). 
+11/18/2024 21:21:53 GMT+03:00 : Information : Disposed 'Microsoft.TemplateEngine.VSCode.TemplateService' via 'completionTask' method.
+11/18/2024 21:21:53 GMT+03:00 : Information : Finishing shutting down service: Microsoft.TemplateEngine.VSCode.TemplateService.

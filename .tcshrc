@@ -1,0 +1,10 @@
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+if ( -f "/Users/silakazan/Desktop/anaconda3/etc/profile.d/conda.csh" ) then
+    source "/Users/silakazan/Desktop/anaconda3/etc/profile.d/conda.csh"
+else
+    setenv PATH "/Users/silakazan/Desktop/anaconda3/bin:$PATH"
+endif
+# <<< conda initialize <<<
+
